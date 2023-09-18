@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="img/nu-icon.png" type="image/x-icon">
+    <title>Login | Nubank</title>
+</head>
+<body>
+    <main>
+        <section class="secao-banner">
+            <a href="home.html">
+                <img src="img/logo-nubank.webp" alt="Logo Nubank">
+            </a>
+        </section>
+        <section class="secao-login">
+            <div class="container-login">
+                <a href="home.html">
+                    <img src="img/logo-nubank.webp" alt="Logo Nubank">
+                </a>
+                <h2>Acesse sua conta</h2>
+                <form action="#" method="post">
+                    <div class="secao-campo">
+                        <label for="cpf">CPF</label>
+                        <input type="number" name="cpf" id="cpf" required>
+                    </div>
+                    <div class="secao-campo">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" id="senha" required minlength="8" maxlength="20">
+                        <span>Possui 8 caracteres ou mais</span>
+                    </div>
+                    <button type="submit">Continuar <i class="fa-solid fa-arrow-right"></i></button>
+                </form>
+            </div>
+            <section class="rodape">
+                <div class="container-links-rodape">
+                    <div class="links-rodape">
+                        <a href="#">Esqueci a senha</a>
+                    </div>
+                    <div class="links-rodape">
+                        <a href="#">Não sou cliente</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+</body>
+</html>
