@@ -1,3 +1,3 @@
 # LandingPage-Nubank
 
-Projeto realizado apenas com HTML e CSS.
+Projeto ainda incompleto, mas realizado apenas com HTML e CSS.
