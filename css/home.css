@@ -49,6 +49,7 @@ header {
     padding: 8px 15px;
     border-radius: 5px;
     transition: .4s;
+    color: #820AD1;
 }
 
 .btn-header:hover {
